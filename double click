@@ -1,0 +1,11 @@
+<body>
+ <p id="text">Double-click me to see the magic!</p>
+ <script>
+
+ const paragraph = document.getElementById("text");
+
+ paragraph.ondblclick = function() {
+ paragraph.innerText = "You double-clicked me!";
+ };
+ </script>
+</body>
